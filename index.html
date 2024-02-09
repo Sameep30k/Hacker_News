@@ -907,6 +907,10 @@
         document.getElementById("logoutBtn").style.display = "inline";
         document.getElementById("login").style.display = "none"
     }
+    else{
+        window.location.href = "login.html"
+        alert("Please login first")
+    }
     // Add event listener for logout button
     document.getElementById("logoutBtn").addEventListener("click", function () {
         // Clear sessionStorage
